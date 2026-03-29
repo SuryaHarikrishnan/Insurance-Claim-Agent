@@ -1,0 +1,3002 @@
+[
+  {
+    "file_name": "clean_001_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Alvarez, Katherine",
+      "policy_number": "POL-2020-55082",
+      "claim_amount": 5971.17,
+      "incident_date": "2026-02-02",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_002_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Green, Stephanie",
+      "policy_number": "HMO-2022-62350",
+      "claim_amount": 5410.88,
+      "incident_date": "2025-07-28",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_003_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Morales, Robert",
+      "policy_number": "HMO-2022-31643",
+      "claim_amount": 3711.73,
+      "incident_date": "2025-09-19",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_004_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Reyes, Janet",
+      "policy_number": "POL-2021-82132",
+      "claim_amount": 2018.34,
+      "incident_date": "2024-09-19",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_005_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Thomas, Larry",
+      "policy_number": "CGN-2021-51441",
+      "claim_amount": 4696.57,
+      "incident_date": "2025-12-30",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_006_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Scott, Jennifer",
+      "policy_number": "PPO-2018-58393",
+      "claim_amount": 1056.12,
+      "incident_date": "2025-06-02",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_007_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "James, Matthew",
+      "policy_number": "INS-2022-44795",
+      "claim_amount": 6291.73,
+      "incident_date": "2025-03-24",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_008_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Clark, Sharon",
+      "policy_number": "POL-2024-40784",
+      "claim_amount": 4130.91,
+      "incident_date": "2025-04-26",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_009_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Stewart, Laura",
+      "policy_number": "INS-2019-40311",
+      "claim_amount": 4525.64,
+      "incident_date": "2026-01-07",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_010_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Chavez, Jason",
+      "policy_number": "HMO-2018-80702",
+      "claim_amount": 1872.46,
+      "incident_date": "2024-10-16",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_011_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Diaz, Raymond",
+      "policy_number": "PPO-2023-45400",
+      "claim_amount": 4670.0,
+      "incident_date": "2025-04-14",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_012_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "James, Justin",
+      "policy_number": "PPO-2024-34267",
+      "claim_amount": 7592.29,
+      "incident_date": "2024-09-16",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_013_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Bailey, Rebecca",
+      "policy_number": "INS-2023-37659",
+      "claim_amount": 3607.68,
+      "incident_date": "2024-10-25",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_014_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Kim, Jennifer",
+      "policy_number": "INS-2021-78021",
+      "claim_amount": 6639.05,
+      "incident_date": "2025-05-31",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_015_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Lee, Donna",
+      "policy_number": "HMO-2024-73242",
+      "claim_amount": 575.5,
+      "incident_date": "2024-12-31",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_016_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "James, Katherine",
+      "policy_number": "INS-2018-71537",
+      "claim_amount": 4482.55,
+      "incident_date": "2025-03-24",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_017_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Murphy, Justin",
+      "policy_number": "CGN-2023-65615",
+      "claim_amount": 511.03,
+      "incident_date": "2026-01-29",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_018_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Sanchez, Thomas",
+      "policy_number": "INS-2024-39571",
+      "claim_amount": 5147.45,
+      "incident_date": "2025-07-18",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_019_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Gonzalez, Gary",
+      "policy_number": "CGN-2019-26011",
+      "claim_amount": 1247.25,
+      "incident_date": "2025-10-31",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_020_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Rogers, Emma",
+      "policy_number": "HMO-2021-99928",
+      "claim_amount": 5339.3,
+      "incident_date": "2025-11-07",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_021_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Gonzalez, Melissa",
+      "policy_number": "POL-2022-76507",
+      "claim_amount": 2810.61,
+      "incident_date": "2024-12-31",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_022_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Reed, Scott",
+      "policy_number": "CGN-2021-24534",
+      "claim_amount": 6978.42,
+      "incident_date": "2025-08-26",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_023_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Wilson, Ashley",
+      "policy_number": "CGN-2020-94599",
+      "claim_amount": 297.12,
+      "incident_date": "2024-12-08",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_024_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Garcia, Laura",
+      "policy_number": "HMO-2021-78690",
+      "claim_amount": 2527.14,
+      "incident_date": "2024-05-22",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_025_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "White, Margaret",
+      "policy_number": "CGN-2024-91006",
+      "claim_amount": 4821.07,
+      "incident_date": "2025-10-18",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_026_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Lee, Paul",
+      "policy_number": "POL-2020-39430",
+      "claim_amount": 6190.09,
+      "incident_date": "2024-11-12",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_027_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Walker, Pamela",
+      "policy_number": "HMO-2020-43246",
+      "claim_amount": 2021.75,
+      "incident_date": "2026-01-10",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_028_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Parker, Stephanie",
+      "policy_number": "PPO-2020-52101",
+      "claim_amount": 7103.45,
+      "incident_date": "2025-08-07",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_029_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Gomez, Joshua",
+      "policy_number": "HMO-2019-26074",
+      "claim_amount": 1140.91,
+      "incident_date": "2026-01-23",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_030_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Martinez, Laura",
+      "policy_number": "PPO-2019-49862",
+      "claim_amount": 2983.04,
+      "incident_date": "2026-02-01",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_031_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Ruiz, Linda",
+      "policy_number": "PPO-2022-23917",
+      "claim_amount": 506.88,
+      "incident_date": "2025-12-06",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_032_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Sanders, Brian",
+      "policy_number": "PPO-2018-26864",
+      "claim_amount": 7738.49,
+      "incident_date": "2024-11-16",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_033_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Robinson, Patrick",
+      "policy_number": "HMO-2020-64890",
+      "claim_amount": 4328.87,
+      "incident_date": "2024-09-24",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_034_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Gomez, Kevin",
+      "policy_number": "CGN-2019-24316",
+      "claim_amount": 2340.2,
+      "incident_date": "2025-06-20",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_035_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Cox, Susan",
+      "policy_number": "INS-2018-54185",
+      "claim_amount": 5270.55,
+      "incident_date": "2025-11-28",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_036_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Morris, Karen",
+      "policy_number": "POL-2022-68556",
+      "claim_amount": 5392.12,
+      "incident_date": "2025-12-26",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_037_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "White, Sarah",
+      "policy_number": "PPO-2021-79316",
+      "claim_amount": 6484.29,
+      "incident_date": "2024-04-10",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_038_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Gray, Michelle",
+      "policy_number": "CGN-2023-97994",
+      "claim_amount": 413.57,
+      "incident_date": "2024-06-29",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_039_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Myers, Kathleen",
+      "policy_number": "HMO-2018-71537",
+      "claim_amount": 2257.42,
+      "incident_date": "2026-01-06",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_040_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Robinson, David",
+      "policy_number": "POL-2022-46010",
+      "claim_amount": 1248.67,
+      "incident_date": "2025-09-07",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_041_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Ruiz, Larry",
+      "policy_number": "HMO-2018-49226",
+      "claim_amount": 3331.43,
+      "incident_date": "2025-11-24",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_042_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Brooks, Karen",
+      "policy_number": "POL-2018-21746",
+      "claim_amount": 4001.24,
+      "incident_date": "2024-11-23",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_043_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Wood, Scott",
+      "policy_number": "CGN-2024-61502",
+      "claim_amount": 2125.84,
+      "incident_date": "2025-02-23",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_044_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Garcia, Larry",
+      "policy_number": "PPO-2023-75597",
+      "claim_amount": 3911.99,
+      "incident_date": "2024-06-25",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_045_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Diaz, Deborah",
+      "policy_number": "HMO-2022-93769",
+      "claim_amount": 4200.55,
+      "incident_date": "2025-06-23",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_046_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Murphy, Timothy",
+      "policy_number": "HMO-2022-76952",
+      "claim_amount": 5138.69,
+      "incident_date": "2024-10-17",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_047_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Gray, Richard",
+      "policy_number": "HMO-2019-85684",
+      "claim_amount": 5117.25,
+      "incident_date": "2024-06-13",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_048_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Thomas, Christopher",
+      "policy_number": "CGN-2023-95054",
+      "claim_amount": 6625.05,
+      "incident_date": "2024-12-15",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_049_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Ramirez, Benjamin",
+      "policy_number": "CGN-2023-21042",
+      "claim_amount": 2609.81,
+      "incident_date": "2025-11-14",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_050_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Turner, Jason",
+      "policy_number": "POL-2020-67342",
+      "claim_amount": 3453.78,
+      "incident_date": "2024-07-25",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_051_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Wilson, Pamela",
+      "policy_number": "HMO-2019-52179",
+      "claim_amount": 6485.8,
+      "incident_date": "2025-03-21",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_052_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Flores, Susan",
+      "policy_number": "CGN-2021-21128",
+      "claim_amount": 4794.77,
+      "incident_date": "2025-02-15",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_053_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Young, Amanda",
+      "policy_number": "INS-2018-11567",
+      "claim_amount": 2615.16,
+      "incident_date": "2024-11-07",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_054_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Davis, Elizabeth",
+      "policy_number": "PPO-2024-73527",
+      "claim_amount": 381.44,
+      "incident_date": "2024-10-07",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_055_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Lopez, Linda",
+      "policy_number": "POL-2019-86888",
+      "claim_amount": 1532.39,
+      "incident_date": "2025-09-03",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_056_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Hall, Joshua",
+      "policy_number": "INS-2021-74629",
+      "claim_amount": 1149.68,
+      "incident_date": "2025-05-02",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_057_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Gomez, Pamela",
+      "policy_number": "HMO-2024-25139",
+      "claim_amount": 3535.89,
+      "incident_date": "2026-01-27",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_058_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Harris, Thomas",
+      "policy_number": "PPO-2020-46202",
+      "claim_amount": 6574.48,
+      "incident_date": "2025-01-27",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_059_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Morales, Rachel",
+      "policy_number": "HMO-2024-77698",
+      "claim_amount": 3313.35,
+      "incident_date": "2025-05-21",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_060_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Kelly, Margaret",
+      "policy_number": "POL-2019-43081",
+      "claim_amount": 3986.98,
+      "incident_date": "2025-02-11",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_061_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Turner, Stephanie",
+      "policy_number": "PPO-2019-48506",
+      "claim_amount": 2200.0,
+      "incident_date": "2025-05-20",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_062_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Hernandez, Gary",
+      "policy_number": "PPO-2021-93032",
+      "claim_amount": 7131.99,
+      "incident_date": "2024-11-01",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_063_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Ramos, Nicholas",
+      "policy_number": "POL-2021-68237",
+      "claim_amount": 4831.5,
+      "incident_date": "2024-09-13",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_064_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Martinez, Patrick",
+      "policy_number": "HMO-2023-25191",
+      "claim_amount": 2468.51,
+      "incident_date": "2025-01-04",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_065_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Cruz, Jennifer",
+      "policy_number": "PPO-2018-66734",
+      "claim_amount": 964.15,
+      "incident_date": "2025-09-17",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_066_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Cox, Helen",
+      "policy_number": "CGN-2023-69314",
+      "claim_amount": 3636.88,
+      "incident_date": "2024-11-14",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_067_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Thompson, Frank",
+      "policy_number": "CGN-2020-69355",
+      "claim_amount": 515.03,
+      "incident_date": "2024-12-30",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_068_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Torres, Debra",
+      "policy_number": "HMO-2019-76967",
+      "claim_amount": 3920.9,
+      "incident_date": "2024-08-01",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_069_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Adams, Scott",
+      "policy_number": "HMO-2022-80390",
+      "claim_amount": 734.58,
+      "incident_date": "2024-03-30",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_070_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Morgan, Jonathan",
+      "policy_number": "POL-2023-99921",
+      "claim_amount": 4390.86,
+      "incident_date": "2025-06-10",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_071_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Gomez, Anna",
+      "policy_number": "POL-2022-88204",
+      "claim_amount": 7435.17,
+      "incident_date": "2025-02-26",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_072_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Ruiz, Justin",
+      "policy_number": "CGN-2021-70666",
+      "claim_amount": 920.89,
+      "incident_date": "2025-06-16",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_073_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Ward, Debra",
+      "policy_number": "HMO-2019-18239",
+      "claim_amount": 6235.3,
+      "incident_date": "2024-04-29",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_074_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Scott, Margaret",
+      "policy_number": "HMO-2018-41938",
+      "claim_amount": 3104.18,
+      "incident_date": "2025-06-15",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_075_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Cook, Debra",
+      "policy_number": "PPO-2024-10157",
+      "claim_amount": 6590.56,
+      "incident_date": "2024-07-11",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_076_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Scott, Debra",
+      "policy_number": "INS-2024-96413",
+      "claim_amount": 5716.82,
+      "incident_date": "2026-02-22",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_077_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Rogers, Eric",
+      "policy_number": "POL-2023-18993",
+      "claim_amount": 7455.88,
+      "incident_date": "2025-01-30",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_078_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Johnson, Rachel",
+      "policy_number": "INS-2021-36170",
+      "claim_amount": 4570.87,
+      "incident_date": "2025-02-06",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_079_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Johnson, Mary",
+      "policy_number": "INS-2021-58799",
+      "claim_amount": 2350.09,
+      "incident_date": "2024-09-22",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "clean_080_cigna.pdf",
+    "form_type": "cigna",
+    "category": "CLEAN",
+    "subtype": "clean",
+    "expected_decision": "ACCEPT",
+    "ground_truth": {
+      "claimant_name": "Allen, Kevin",
+      "policy_number": "HMO-2024-68580",
+      "claim_amount": 2505.27,
+      "incident_date": "2024-10-17",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "fraud_081_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_inflated_amount",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Ortiz, William",
+      "policy_number": "POL-2023-56771",
+      "claim_amount": 111000,
+      "incident_date": "2024-12-31",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "fraud_082_cigna.pdf",
+    "form_type": "cigna",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_wire_transfer",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Gomez, Ashley",
+      "policy_number": "PPO-2024-45235",
+      "claim_amount": 20000.0,
+      "incident_date": "2025-10-11",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "fraud_083_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_duplicate_services",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Alvarez, Ashley",
+      "policy_number": "CGN-2019-92465",
+      "claim_amount": 3789.92,
+      "incident_date": "2025-02-12",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "fraud_084_cigna.pdf",
+    "form_type": "cigna",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_future_date",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Rivera, Patrick",
+      "policy_number": "PPO-2024-82682",
+      "claim_amount": 4074.37,
+      "incident_date": "2026-06-19",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "fraud_085_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_no_receipts",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Roberts, Raymond",
+      "policy_number": "POL-2020-83140",
+      "claim_amount": 25000,
+      "incident_date": "2025-01-04",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "fraud_086_cigna.pdf",
+    "form_type": "cigna",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_invalid_policy",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Castillo, Michelle",
+      "policy_number": "NONE",
+      "claim_amount": 1459.45,
+      "incident_date": "2025-11-13",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "fraud_087_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_conflicting_amounts",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Turner, Jessica",
+      "policy_number": "HMO-2021-88005",
+      "claim_amount": 24298.64,
+      "incident_date": "2025-04-01",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "fraud_088_cigna.pdf",
+    "form_type": "cigna",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_inflated_amount",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Robinson, Betty",
+      "policy_number": "HMO-2021-12981",
+      "claim_amount": 104000,
+      "incident_date": "2024-07-18",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "fraud_089_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_wire_transfer",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Garcia, Ashley",
+      "policy_number": "CGN-2021-13862",
+      "claim_amount": 75000.0,
+      "incident_date": "2025-11-09",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "fraud_090_cigna.pdf",
+    "form_type": "cigna",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_duplicate_services",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Brooks, Kimberly",
+      "policy_number": "POL-2023-72469",
+      "claim_amount": 7966.13,
+      "incident_date": "2024-12-14",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "fraud_091_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_future_date",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Garcia, Ashley",
+      "policy_number": "PPO-2018-77760",
+      "claim_amount": 7117.56,
+      "incident_date": "2026-08-01",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "fraud_092_cigna.pdf",
+    "form_type": "cigna",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_no_receipts",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Sanders, Laura",
+      "policy_number": "HMO-2019-38426",
+      "claim_amount": 45000,
+      "incident_date": "2025-12-02",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "fraud_093_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_invalid_policy",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Moore, Jessica",
+      "policy_number": "NONE",
+      "claim_amount": 2382.39,
+      "incident_date": "2024-04-10",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "fraud_094_cigna.pdf",
+    "form_type": "cigna",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_conflicting_amounts",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Baker, Gregory",
+      "policy_number": "CGN-2022-98892",
+      "claim_amount": 25207.87,
+      "incident_date": "2025-05-15",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "fraud_095_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_inflated_amount",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Morris, Janet",
+      "policy_number": "POL-2018-50760",
+      "claim_amount": 70000,
+      "incident_date": "2024-11-22",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "fraud_096_cigna.pdf",
+    "form_type": "cigna",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_wire_transfer",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Lopez, Jason",
+      "policy_number": "INS-2018-71377",
+      "claim_amount": 50000.0,
+      "incident_date": "2024-08-14",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "fraud_097_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_duplicate_services",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Ruiz, Emma",
+      "policy_number": "PPO-2018-68355",
+      "claim_amount": 958.02,
+      "incident_date": "2024-09-25",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "fraud_098_cigna.pdf",
+    "form_type": "cigna",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_future_date",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Bailey, Amanda",
+      "policy_number": "PPO-2021-57223",
+      "claim_amount": 4626.67,
+      "incident_date": "2026-06-04",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "fraud_099_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_no_receipts",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Ruiz, William",
+      "policy_number": "POL-2023-93058",
+      "claim_amount": 29000,
+      "incident_date": "2024-12-20",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "fraud_100_cigna.pdf",
+    "form_type": "cigna",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_invalid_policy",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Patel, Karen",
+      "policy_number": "TBD",
+      "claim_amount": 364.29,
+      "incident_date": "2024-05-29",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "fraud_101_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_conflicting_amounts",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Reyes, Gregory",
+      "policy_number": "HMO-2020-38759",
+      "claim_amount": 59628.67,
+      "incident_date": "2024-09-03",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "fraud_102_cigna.pdf",
+    "form_type": "cigna",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_inflated_amount",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Sanchez, Brandon",
+      "policy_number": "CGN-2024-68442",
+      "claim_amount": 157000,
+      "incident_date": "2025-05-20",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "fraud_103_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_wire_transfer",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Harris, Kenneth",
+      "policy_number": "PPO-2023-50334",
+      "claim_amount": 75000.0,
+      "incident_date": "2024-03-31",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "fraud_104_cigna.pdf",
+    "form_type": "cigna",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_duplicate_services",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Patel, Gregory",
+      "policy_number": "CGN-2022-31627",
+      "claim_amount": 1502.15,
+      "incident_date": "2026-02-13",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "fraud_105_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_future_date",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Cooper, Nicholas",
+      "policy_number": "CGN-2020-37471",
+      "claim_amount": 4942.72,
+      "incident_date": "2026-06-07",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "fraud_106_cigna.pdf",
+    "form_type": "cigna",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_no_receipts",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Rivera, Paul",
+      "policy_number": "PPO-2019-85775",
+      "claim_amount": 36500,
+      "incident_date": "2025-08-07",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "fraud_107_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_invalid_policy",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Williams, Kathleen",
+      "policy_number": "N/A",
+      "claim_amount": 4319.31,
+      "incident_date": "2024-12-19",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "fraud_108_cigna.pdf",
+    "form_type": "cigna",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_conflicting_amounts",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Mendoza, Jason",
+      "policy_number": "POL-2019-70014",
+      "claim_amount": 70096.85,
+      "incident_date": "2025-09-01",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "fraud_109_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_inflated_amount",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Miller, Charles",
+      "policy_number": "POL-2018-51500",
+      "claim_amount": 179000,
+      "incident_date": "2025-01-02",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "fraud_110_cigna.pdf",
+    "form_type": "cigna",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_wire_transfer",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Lewis, Laura",
+      "policy_number": "POL-2022-61697",
+      "claim_amount": 25000.0,
+      "incident_date": "2025-05-07",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "fraud_111_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_duplicate_services",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Thompson, Brenda",
+      "policy_number": "INS-2018-10320",
+      "claim_amount": 6708.77,
+      "incident_date": "2025-10-08",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "fraud_112_cigna.pdf",
+    "form_type": "cigna",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_future_date",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Nguyen, Shirley",
+      "policy_number": "CGN-2018-80047",
+      "claim_amount": 5903.71,
+      "incident_date": "2026-05-07",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "fraud_113_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_no_receipts",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Ruiz, Charles",
+      "policy_number": "PPO-2022-17768",
+      "claim_amount": 10500,
+      "incident_date": "2026-02-10",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "fraud_114_cigna.pdf",
+    "form_type": "cigna",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_invalid_policy",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Wilson, Nancy",
+      "policy_number": "N/A",
+      "claim_amount": 1853.43,
+      "incident_date": "2024-09-04",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "fraud_115_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_conflicting_amounts",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Howard, Emma",
+      "policy_number": "INS-2023-27643",
+      "claim_amount": 77154.83,
+      "incident_date": "2025-01-19",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "fraud_116_cigna.pdf",
+    "form_type": "cigna",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_inflated_amount",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Roberts, Gary",
+      "policy_number": "PPO-2023-56237",
+      "claim_amount": 84000,
+      "incident_date": "2025-10-29",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "fraud_117_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_wire_transfer",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Clark, Carol",
+      "policy_number": "CGN-2018-48970",
+      "claim_amount": 75000.0,
+      "incident_date": "2026-01-20",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "fraud_118_cigna.pdf",
+    "form_type": "cigna",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_duplicate_services",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Campbell, Cynthia",
+      "policy_number": "PPO-2019-63197",
+      "claim_amount": 5078.57,
+      "incident_date": "2026-02-08",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "fraud_119_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_future_date",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Thomas, Joshua",
+      "policy_number": "POL-2021-79922",
+      "claim_amount": 7219.51,
+      "incident_date": "2026-06-26",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "fraud_120_cigna.pdf",
+    "form_type": "cigna",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_no_receipts",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Chavez, Timothy",
+      "policy_number": "CGN-2021-88920",
+      "claim_amount": 25500,
+      "incident_date": "2025-10-26",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "fraud_121_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_invalid_policy",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Lopez, Cynthia",
+      "policy_number": "000000",
+      "claim_amount": 1511.81,
+      "incident_date": "2025-06-06",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "fraud_122_cigna.pdf",
+    "form_type": "cigna",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_conflicting_amounts",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Rivera, Nicole",
+      "policy_number": "CGN-2021-27290",
+      "claim_amount": 58199.13,
+      "incident_date": "2025-12-02",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "fraud_123_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_inflated_amount",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Castillo, Charles",
+      "policy_number": "PPO-2024-84814",
+      "claim_amount": 181000,
+      "incident_date": "2025-09-28",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "fraud_124_cigna.pdf",
+    "form_type": "cigna",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_wire_transfer",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Clark, Christopher",
+      "policy_number": "CGN-2023-22597",
+      "claim_amount": 25000.0,
+      "incident_date": "2024-07-25",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "fraud_125_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_duplicate_services",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Gonzalez, Cynthia",
+      "policy_number": "CGN-2022-69637",
+      "claim_amount": 7271.58,
+      "incident_date": "2025-12-08",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "fraud_126_cigna.pdf",
+    "form_type": "cigna",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_future_date",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Morgan, Matthew",
+      "policy_number": "INS-2019-48644",
+      "claim_amount": 7710.66,
+      "incident_date": "2026-09-02",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "fraud_127_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_no_receipts",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Ramos, Debra",
+      "policy_number": "INS-2022-37159",
+      "claim_amount": 31000,
+      "incident_date": "2024-08-10",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "fraud_128_cigna.pdf",
+    "form_type": "cigna",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_invalid_policy",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Long, Joseph",
+      "policy_number": "TBD",
+      "claim_amount": 1909.15,
+      "incident_date": "2024-08-01",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "fraud_129_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_conflicting_amounts",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Jones, Raymond",
+      "policy_number": "PPO-2022-29249",
+      "claim_amount": 65422.78,
+      "incident_date": "2024-09-17",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "fraud_130_cigna.pdf",
+    "form_type": "cigna",
+    "category": "FRAUDULENT",
+    "subtype": "fraud_inflated_amount",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Smith, Ryan",
+      "policy_number": "POL-2020-77692",
+      "claim_amount": 215000,
+      "incident_date": "2024-08-24",
+      "claim_type": "Health",
+      "has_fraud_note": true
+    }
+  },
+  {
+    "file_name": "incomplete_131_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_name",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": null,
+      "policy_number": "CGN-2020-38256",
+      "claim_amount": 3955.4,
+      "incident_date": "2025-10-20",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_132_cigna.pdf",
+    "form_type": "cigna",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_policy_number",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": "Harris, Helen",
+      "policy_number": null,
+      "claim_amount": 1977.65,
+      "incident_date": "2025-01-27",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_133_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_claim_amount",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": "Long, Nicholas",
+      "policy_number": "POL-2019-82706",
+      "claim_amount": null,
+      "incident_date": "2024-06-08",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_134_cigna.pdf",
+    "form_type": "cigna",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_name_policy_number",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": null,
+      "policy_number": null,
+      "claim_amount": 3134.21,
+      "incident_date": "2024-04-02",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_135_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_incident_date",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": "Jones, Kimberly",
+      "policy_number": "PPO-2022-33006",
+      "claim_amount": 1129.4,
+      "incident_date": null,
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_136_cigna.pdf",
+    "form_type": "cigna",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_name_claim_amount",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": null,
+      "policy_number": "POL-2021-66616",
+      "claim_amount": null,
+      "incident_date": "2025-05-23",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_137_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_policy_number_incident_date",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": "Richardson, Helen",
+      "policy_number": null,
+      "claim_amount": 2516.55,
+      "incident_date": null,
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_138_cigna.pdf",
+    "form_type": "cigna",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_name",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": null,
+      "policy_number": "INS-2019-73012",
+      "claim_amount": 2013.49,
+      "incident_date": "2025-12-31",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_139_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_policy_number",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": "Perez, Shirley",
+      "policy_number": null,
+      "claim_amount": 1532.21,
+      "incident_date": "2026-02-05",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_140_cigna.pdf",
+    "form_type": "cigna",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_claim_amount",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": "Flores, Jason",
+      "policy_number": "HMO-2021-66689",
+      "claim_amount": null,
+      "incident_date": "2025-08-28",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_141_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_name_policy_number",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": null,
+      "policy_number": null,
+      "claim_amount": 5689.29,
+      "incident_date": "2025-08-16",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_142_cigna.pdf",
+    "form_type": "cigna",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_incident_date",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": "Peterson, Daniel",
+      "policy_number": "POL-2019-52830",
+      "claim_amount": 5094.24,
+      "incident_date": null,
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_143_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_name_claim_amount",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": null,
+      "policy_number": "PPO-2020-97380",
+      "claim_amount": null,
+      "incident_date": "2024-06-18",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_144_cigna.pdf",
+    "form_type": "cigna",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_policy_number_incident_date",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": "Cox, Richard",
+      "policy_number": null,
+      "claim_amount": 1050.26,
+      "incident_date": null,
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_145_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_name",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": null,
+      "policy_number": "INS-2021-49522",
+      "claim_amount": 7676.15,
+      "incident_date": "2025-07-17",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_146_cigna.pdf",
+    "form_type": "cigna",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_policy_number",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": "Nguyen, Betty",
+      "policy_number": null,
+      "claim_amount": 4161.56,
+      "incident_date": "2025-02-01",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_147_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_claim_amount",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": "Sanchez, Paul",
+      "policy_number": "HMO-2024-20909",
+      "claim_amount": null,
+      "incident_date": "2025-10-22",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_148_cigna.pdf",
+    "form_type": "cigna",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_name_policy_number",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": null,
+      "policy_number": null,
+      "claim_amount": 7902.05,
+      "incident_date": "2024-05-12",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_149_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_incident_date",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": "Turner, Shirley",
+      "policy_number": "POL-2023-33950",
+      "claim_amount": 1007.8,
+      "incident_date": null,
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_150_cigna.pdf",
+    "form_type": "cigna",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_name_claim_amount",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": null,
+      "policy_number": "INS-2020-69233",
+      "claim_amount": null,
+      "incident_date": "2025-02-08",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_151_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_policy_number_incident_date",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": "Cooper, Donald",
+      "policy_number": null,
+      "claim_amount": 2456.82,
+      "incident_date": null,
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_152_cigna.pdf",
+    "form_type": "cigna",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_name",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": null,
+      "policy_number": "CGN-2019-97208",
+      "claim_amount": 849.74,
+      "incident_date": "2025-11-05",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_153_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_policy_number",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": "Peterson, Ronald",
+      "policy_number": null,
+      "claim_amount": 7877.46,
+      "incident_date": "2025-04-27",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_154_cigna.pdf",
+    "form_type": "cigna",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_claim_amount",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": "Hernandez, Jessica",
+      "policy_number": "HMO-2020-84897",
+      "claim_amount": null,
+      "incident_date": "2025-06-26",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_155_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_name_policy_number",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": null,
+      "policy_number": null,
+      "claim_amount": 4504.57,
+      "incident_date": "2026-02-22",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_156_cigna.pdf",
+    "form_type": "cigna",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_incident_date",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": "Martinez, Paul",
+      "policy_number": "INS-2021-23762",
+      "claim_amount": 4356.85,
+      "incident_date": null,
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_157_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_name_claim_amount",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": null,
+      "policy_number": "POL-2023-20416",
+      "claim_amount": null,
+      "incident_date": "2026-02-18",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_158_cigna.pdf",
+    "form_type": "cigna",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_policy_number_incident_date",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": "Carter, Lisa",
+      "policy_number": null,
+      "claim_amount": 7954.64,
+      "incident_date": null,
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_159_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_name",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": null,
+      "policy_number": "HMO-2021-82105",
+      "claim_amount": 3844.98,
+      "incident_date": "2025-07-11",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_160_cigna.pdf",
+    "form_type": "cigna",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_policy_number",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": "Wilson, Rachel",
+      "policy_number": null,
+      "claim_amount": 3964.54,
+      "incident_date": "2025-05-15",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_161_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_claim_amount",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": "Scott, Anthony",
+      "policy_number": "PPO-2022-54944",
+      "claim_amount": null,
+      "incident_date": "2024-12-13",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_162_cigna.pdf",
+    "form_type": "cigna",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_name_policy_number",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": null,
+      "policy_number": null,
+      "claim_amount": 2423.8,
+      "incident_date": "2025-10-18",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_163_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_incident_date",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": "Cox, Stephen",
+      "policy_number": "POL-2021-33791",
+      "claim_amount": 3355.49,
+      "incident_date": null,
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_164_cigna.pdf",
+    "form_type": "cigna",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_name_claim_amount",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": null,
+      "policy_number": "HMO-2019-10158",
+      "claim_amount": null,
+      "incident_date": "2025-01-30",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_165_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_policy_number_incident_date",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": "Martinez, James",
+      "policy_number": null,
+      "claim_amount": 3514.73,
+      "incident_date": null,
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_166_cigna.pdf",
+    "form_type": "cigna",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_name",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": null,
+      "policy_number": "PPO-2018-72498",
+      "claim_amount": 1996.27,
+      "incident_date": "2025-11-30",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_167_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_policy_number",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": "Phillips, Helen",
+      "policy_number": null,
+      "claim_amount": 1408.74,
+      "incident_date": "2024-09-30",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_168_cigna.pdf",
+    "form_type": "cigna",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_claim_amount",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": "Gonzalez, Nicholas",
+      "policy_number": "INS-2024-99320",
+      "claim_amount": null,
+      "incident_date": "2026-01-09",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_169_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_name_policy_number",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": null,
+      "policy_number": null,
+      "claim_amount": 4445.02,
+      "incident_date": "2025-04-17",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "incomplete_170_cigna.pdf",
+    "form_type": "cigna",
+    "category": "INCOMPLETE",
+    "subtype": "incomplete_missing_incident_date",
+    "expected_decision": "REJECT",
+    "ground_truth": {
+      "claimant_name": "Ramirez, Rachel",
+      "policy_number": "CGN-2024-66375",
+      "claim_amount": 3827.64,
+      "incident_date": null,
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "edge_171_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "EDGE_CASE",
+    "subtype": "edge_high_value",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Adams, Christine",
+      "policy_number": "INS-2023-68894",
+      "claim_amount": 25365.35,
+      "incident_date": "2025-03-07",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "edge_172_cigna.pdf",
+    "form_type": "cigna",
+    "category": "EDGE_CASE",
+    "subtype": "edge_same_day_filing",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Wilson, Elizabeth",
+      "policy_number": "INS-2024-69589",
+      "claim_amount": 7796.45,
+      "incident_date": "2026-03-28",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "edge_173_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "EDGE_CASE",
+    "subtype": "edge_old_incident",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Sanders, Daniel",
+      "policy_number": "PPO-2019-52258",
+      "claim_amount": 356.04,
+      "incident_date": "2024-10-12",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "edge_174_cigna.pdf",
+    "form_type": "cigna",
+    "category": "EDGE_CASE",
+    "subtype": "edge_multiple_diagnoses",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Clark, Ronald",
+      "policy_number": "POL-2019-96463",
+      "claim_amount": 801.26,
+      "incident_date": "2025-05-22",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "edge_175_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "EDGE_CASE",
+    "subtype": "edge_denied_prior",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Wilson, Justin",
+      "policy_number": "POL-2021-31921",
+      "claim_amount": 13512.04,
+      "incident_date": "2025-05-23",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "edge_176_cigna.pdf",
+    "form_type": "cigna",
+    "category": "EDGE_CASE",
+    "subtype": "edge_round_amount",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Sanchez, Michael",
+      "policy_number": "POL-2021-47272",
+      "claim_amount": 1000.0,
+      "incident_date": "2025-07-04",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "edge_177_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "EDGE_CASE",
+    "subtype": "edge_high_value",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Anderson, Michael",
+      "policy_number": "PPO-2024-64171",
+      "claim_amount": 37478.29,
+      "incident_date": "2025-07-13",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "edge_178_cigna.pdf",
+    "form_type": "cigna",
+    "category": "EDGE_CASE",
+    "subtype": "edge_same_day_filing",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Lewis, Brian",
+      "policy_number": "POL-2023-24444",
+      "claim_amount": 1625.15,
+      "incident_date": "2026-03-28",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "edge_179_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "EDGE_CASE",
+    "subtype": "edge_old_incident",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Scott, Mark",
+      "policy_number": "POL-2018-34258",
+      "claim_amount": 4918.47,
+      "incident_date": "2024-06-17",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "edge_180_cigna.pdf",
+    "form_type": "cigna",
+    "category": "EDGE_CASE",
+    "subtype": "edge_multiple_diagnoses",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Morales, Steven",
+      "policy_number": "POL-2019-63781",
+      "claim_amount": 1008.68,
+      "incident_date": "2024-11-01",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "edge_181_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "EDGE_CASE",
+    "subtype": "edge_denied_prior",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Bailey, Christine",
+      "policy_number": "POL-2018-42955",
+      "claim_amount": 9661.04,
+      "incident_date": "2025-05-21",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "edge_182_cigna.pdf",
+    "form_type": "cigna",
+    "category": "EDGE_CASE",
+    "subtype": "edge_round_amount",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Cruz, Frank",
+      "policy_number": "PPO-2020-41804",
+      "claim_amount": 3000.0,
+      "incident_date": "2024-04-03",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "edge_183_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "EDGE_CASE",
+    "subtype": "edge_high_value",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Richardson, Frank",
+      "policy_number": "CGN-2021-73402",
+      "claim_amount": 42393.7,
+      "incident_date": "2025-10-26",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "edge_184_cigna.pdf",
+    "form_type": "cigna",
+    "category": "EDGE_CASE",
+    "subtype": "edge_same_day_filing",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Castillo, Ryan",
+      "policy_number": "PPO-2020-70225",
+      "claim_amount": 6535.92,
+      "incident_date": "2026-03-28",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "edge_185_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "EDGE_CASE",
+    "subtype": "edge_old_incident",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Anderson, John",
+      "policy_number": "CGN-2021-67345",
+      "claim_amount": 7483.74,
+      "incident_date": "2024-11-08",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "edge_186_cigna.pdf",
+    "form_type": "cigna",
+    "category": "EDGE_CASE",
+    "subtype": "edge_multiple_diagnoses",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Cooper, George",
+      "policy_number": "CGN-2021-91087",
+      "claim_amount": 2914.03,
+      "incident_date": "2024-10-03",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "edge_187_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "EDGE_CASE",
+    "subtype": "edge_denied_prior",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Brown, Betty",
+      "policy_number": "CGN-2020-35381",
+      "claim_amount": 14091.86,
+      "incident_date": "2024-12-28",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "edge_188_cigna.pdf",
+    "form_type": "cigna",
+    "category": "EDGE_CASE",
+    "subtype": "edge_round_amount",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Ortiz, Paul",
+      "policy_number": "CGN-2023-82478",
+      "claim_amount": 2000.0,
+      "incident_date": "2024-04-25",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "edge_189_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "EDGE_CASE",
+    "subtype": "edge_high_value",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Parker, Jason",
+      "policy_number": "HMO-2021-41224",
+      "claim_amount": 12337.08,
+      "incident_date": "2025-02-04",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "edge_190_cigna.pdf",
+    "form_type": "cigna",
+    "category": "EDGE_CASE",
+    "subtype": "edge_same_day_filing",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Taylor, Sandra",
+      "policy_number": "CGN-2020-12112",
+      "claim_amount": 3919.63,
+      "incident_date": "2026-03-28",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "edge_191_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "EDGE_CASE",
+    "subtype": "edge_old_incident",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "James, Patrick",
+      "policy_number": "PPO-2024-16741",
+      "claim_amount": 3041.17,
+      "incident_date": "2024-07-08",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "edge_192_cigna.pdf",
+    "form_type": "cigna",
+    "category": "EDGE_CASE",
+    "subtype": "edge_multiple_diagnoses",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Sanchez, Nancy",
+      "policy_number": "POL-2019-77488",
+      "claim_amount": 4619.34,
+      "incident_date": "2025-07-07",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "edge_193_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "EDGE_CASE",
+    "subtype": "edge_denied_prior",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Ortiz, Justin",
+      "policy_number": "PPO-2020-23037",
+      "claim_amount": 12325.49,
+      "incident_date": "2025-12-04",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "edge_194_cigna.pdf",
+    "form_type": "cigna",
+    "category": "EDGE_CASE",
+    "subtype": "edge_round_amount",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Scott, Janet",
+      "policy_number": "POL-2021-23164",
+      "claim_amount": 1000.0,
+      "incident_date": "2025-02-14",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "edge_195_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "EDGE_CASE",
+    "subtype": "edge_high_value",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Watson, Ronald",
+      "policy_number": "HMO-2020-96587",
+      "claim_amount": 30448.72,
+      "incident_date": "2024-08-05",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "edge_196_cigna.pdf",
+    "form_type": "cigna",
+    "category": "EDGE_CASE",
+    "subtype": "edge_same_day_filing",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Carter, Elizabeth",
+      "policy_number": "CGN-2020-64184",
+      "claim_amount": 5144.69,
+      "incident_date": "2026-03-28",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "edge_197_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "EDGE_CASE",
+    "subtype": "edge_old_incident",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Hill, Kimberly",
+      "policy_number": "PPO-2019-60123",
+      "claim_amount": 5818.59,
+      "incident_date": "2024-06-25",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "edge_198_cigna.pdf",
+    "form_type": "cigna",
+    "category": "EDGE_CASE",
+    "subtype": "edge_multiple_diagnoses",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Morales, Anna",
+      "policy_number": "POL-2019-78149",
+      "claim_amount": 6120.57,
+      "incident_date": "2024-07-27",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "edge_199_hcfa.pdf",
+    "form_type": "hcfa",
+    "category": "EDGE_CASE",
+    "subtype": "edge_denied_prior",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Stewart, David",
+      "policy_number": "CGN-2023-11851",
+      "claim_amount": 19499.88,
+      "incident_date": "2024-09-10",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  },
+  {
+    "file_name": "edge_200_cigna.pdf",
+    "form_type": "cigna",
+    "category": "EDGE_CASE",
+    "subtype": "edge_round_amount",
+    "expected_decision": "FLAG",
+    "ground_truth": {
+      "claimant_name": "Adams, Kenneth",
+      "policy_number": "CGN-2023-28728",
+      "claim_amount": 3000.0,
+      "incident_date": "2025-07-28",
+      "claim_type": "Health",
+      "has_fraud_note": false
+    }
+  }
+]

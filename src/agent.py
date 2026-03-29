@@ -23,53 +23,65 @@ def make_decision(validation: dict) -> dict:
     """
     Determine claim status based on validation results.
 
-    Rules:
-      REJECT  - any critical required field missing OR major inconsistency
-      FLAG    - fraud flags present OR non-critical missing fields OR minor inconsistencies
-      ACCEPT  - no missing fields, no inconsistencies, no flags
+    Priority order:
+      REJECT  — missing claimant_name or claim_amount (identity/amount unknowable)
+                OR missing policy_number with NO other fraud signals
+                OR unparseable amount (non-positive)
+      FLAG    — fraud indicators present, OR missing policy_number alongside
+                other flags (fraudulent intent likely), OR minor issues
+      ACCEPT  — all required fields present, no flags, no inconsistencies
     """
-    missing = validation.get("missing_fields", [])
+    missing        = validation.get("missing_fields", [])
     inconsistencies = validation.get("inconsistencies", [])
-    flags = validation.get("flags", [])
+    flags          = validation.get("flags", [])
 
-    # Critical missing fields → hard reject
-    critical_missing = [f for f in missing if f in CRITICAL_FIELDS]
-    if critical_missing:
+    # ── Hard REJECT: identity or amount completely unknown ────────────────────
+    # claimant_name and claim_amount are absolutely required to process any claim.
+    hard_missing = [f for f in missing if f in {"claimant_name", "claim_amount"}]
+    if hard_missing:
         return {
             "status": "REJECT",
             "reason": (
-                f"Missing critical field(s): {', '.join(critical_missing)}. "
+                f"Missing critical field(s): {', '.join(hard_missing)}. "
                 "Claim cannot be processed without this information."
             ),
         }
 
-    # Major inconsistencies (amount ≤ 0, future date, extreme amount) → reject
-    critical_inconsistencies = [
-        i for i in inconsistencies
-        if any(phrase in i.lower() for phrase in
-               ["non-positive", "future", "abnormally high"])
-    ]
-    if critical_inconsistencies:
+    # ── Non-positive amount → reject (can't adjudicate a $0 claim) ───────────
+    bad_amount = [i for i in inconsistencies if "non-positive" in i.lower()]
+    if bad_amount:
         return {
             "status": "REJECT",
-            "reason": "Major data inconsistency: " + "; ".join(critical_inconsistencies),
+            "reason": "Invalid claim amount: " + "; ".join(bad_amount),
         }
 
-    # Fraud flags or non-critical issues → flag for review
+    # ── Missing policy_number: REJECT only when no fraud signals present ──────
+    # If fraud flags are present alongside missing policy, it's a FLAG case
+    # (the fraud is the primary concern, not the missing field).
+    if "policy_number" in missing and not flags:
+        return {
+            "status": "REJECT",
+            "reason": (
+                "Missing policy_number. Claim cannot be verified without a valid policy. "
+                + (f"Additional issues: {'; '.join(inconsistencies)}" if inconsistencies else "")
+            ).strip(),
+        }
+
+    # ── Any flags, inconsistencies, or non-critical missing fields → FLAG ─────
     if flags or inconsistencies or missing:
         reasons = []
         if flags:
-            reasons.append("Fraud indicators: " + "; ".join(flags))
+            reasons.append("Fraud/suspicious indicators: " + "; ".join(flags))
         if inconsistencies:
             reasons.append("Data issues: " + "; ".join(inconsistencies))
         if missing:
-            reasons.append(f"Non-critical missing field(s): {', '.join(missing)}")
+            reasons.append(f"Missing field(s): {', '.join(missing)}")
         return {
             "status": "FLAG",
             "reason": " | ".join(reasons),
         }
 
-    # All clear
+    # ── All clear ─────────────────────────────────────────────────────────────
     return {
         "status": "ACCEPT",
         "reason": "All required fields present, no inconsistencies detected, claim appears valid.",
