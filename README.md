@@ -1,4 +1,5 @@
 # ClaimIQ — Insurance Claim Processing Agent
+An AI-driven pipeline for processing insurance claim PDFs with automated validation and decision-making.
 
 An AI-powered pipeline that automatically extracts, validates, and makes decisions on insurance claim PDFs. Built with a FastAPI backend, React frontend, and a rule-based fraud detection engine.
 
